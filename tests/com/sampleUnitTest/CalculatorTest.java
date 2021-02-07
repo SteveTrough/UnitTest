@@ -33,7 +33,7 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Multiplication with zeroes")
+    @DisplayName("Multiply zero with zero")
     public void multiplyZeroTest3(){
         assertEquals(0,calculator.multiply(0,0));
     }
