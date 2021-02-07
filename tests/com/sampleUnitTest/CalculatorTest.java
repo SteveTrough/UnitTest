@@ -26,4 +26,10 @@ class CalculatorTest {
         assertEquals(0,calculator.multiply(5,0));
     }
 
+    @Test
+    @DisplayName("Multiplication with zero Test2")
+    public void multiplyZeroTest2(){
+        assertEquals(0,calculator.multiply(0,2));
+    }
+
 }
