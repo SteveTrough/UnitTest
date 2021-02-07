@@ -32,4 +32,10 @@ class CalculatorTest {
         assertEquals(0,calculator.multiply(0,2));
     }
 
+    @Test
+    @DisplayName("Multiplication with zeroes")
+    public void multiplyZeroTest3(){
+        assertEquals(0,calculator.multiply(0,0));
+    }
+
 }
